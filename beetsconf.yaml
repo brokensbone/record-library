@@ -1,0 +1,7 @@
+library: /home/dj/meta/beets.db
+directory: /home/dj/library
+import:
+    move: no
+    copy: yes
+    log: /home/dj/meta/beets.log
+    write: yes
