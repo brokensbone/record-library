@@ -1,0 +1,13 @@
+services:
+  import:
+    build: .
+    command: bash -c 'while true; do sleep 1000; echo "running"; done'
+    volumes:
+      - /Users/edward/vft/temp-music:/records/import
+      - record-library:/records/library
+      - record-meta:/records/meta
+      - ./beetsconf.yaml:/root/.config/beets/config.yaml
+
+volumes:
+  record-library:
+  record-meta:
