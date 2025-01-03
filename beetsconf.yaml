@@ -1,7 +1,14 @@
-library: /home/dj/meta/beets.db
-directory: /home/dj/library
+library: /records/meta/beets.db
+directory: /records/library
+plugins: spotify
 import:
     move: no
     copy: yes
-    log: /home/dj/meta/beets.log
+    log: /records/meta/beets.log
     write: yes
+    resume: ask
+    incremental: yes
+    incremental_skip_later: no
+    musicbrainz:
+        external_ids:
+            spotify: yes
