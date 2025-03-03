@@ -1,10 +1,10 @@
-library: ./local/beets.db
-directory: ./local/library
+library: ./beets.db
+directory: ./library
 plugins: spotify
 import:
     move: yes
     copy: no
-    log: ./local/beets.log
+    log: ./beets.log
     write: yes
     resume: ask
     incremental: yes
