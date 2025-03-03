@@ -1,3 +1,9 @@
 music
 meta/beets.db
 meta/beets.log
+venv/*
+library/**/*.flac
+beets.log
+beets.db
+spotify_token.json
+state.pickle
