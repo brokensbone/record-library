@@ -1,6 +1,6 @@
 library: ./beets.db
 directory: ./library
-plugins: spotify
+plugins: spotify hugopages
 import:
     move: yes
     copy: no

@@ -7,3 +7,4 @@ beets.log
 beets.db
 spotify_token.json
 state.pickle
+*/__pycache__/
