@@ -12,3 +12,6 @@ import:
     musicbrainz:
         external_ids:
             spotify: yes
+
+hugopages:
+    album_path: ./hugopages/rnp/content/music/album
